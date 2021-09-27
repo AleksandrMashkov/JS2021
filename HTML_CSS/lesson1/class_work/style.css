@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(51, 48, 48);
+}
+h1 {
+  color: slateblue;
+  font-size: 52px;
+  text-align: center;
+  border: 2px solid rgb(51, 48, 48);
+  padding-top: 20px;
+  margin: 31px 100px;
+}
+.green {
+  background-color: #bdff95;
+  padding: 23px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 200, 83, 0.6);
+}
+.double-line {
+  line-height: 2;
+}
+
+ul {
+  list-style-type: square;
+}
+img {
+  width: 30%;
+}
+/*стили блоков*/
+.orange {
+  background-color: orange;
+}
+.pink {
+  background-color: pink;
+}
+.blue {
+  background-color: royalblue;
+}
+.blue img {
+  width: 33%;
+}
+
+.block {
+  width: 33%;
+  border-radius: 20px;
+  padding: 20px;
+  float: left;
+  box-sizing: border-box;
+}
