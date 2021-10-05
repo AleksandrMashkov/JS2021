@@ -32,9 +32,10 @@ header {
   top: 24.61px;
   bottom: 1353.78px;
 }
-.telephon {
-  font-weight: 600;
+.kontakt {
+  position: absolute;
   font-style: normal;
+  font-weight: 600;
   width: 154px;
   height: 22px;
   left: 1378px;
