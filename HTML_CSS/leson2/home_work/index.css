@@ -14,6 +14,7 @@ ul {
   list-style: none;
 }
 header {
+  /*  шапка сайта лого,контакт */
   display: flex;
   height: 80px;
   align-items: center;
@@ -32,6 +33,8 @@ header {
   bottom: 1353.78px;
 }
 .telephon {
+  font-weight: 600;
+  font-style: normal;
   width: 154px;
   height: 22px;
   left: 1378px;
@@ -40,6 +43,7 @@ header {
   line-height: 22px;
 }
 section {
+  /* заголовок,высказывание */
   margin: 0px;
   padding: 0;
 }
@@ -53,21 +57,22 @@ section {
   top: 143px;
   font-size: 40px;
   line-height: 49px;
-  font-style: normal;
 }
 .quote {
+  font-style: italic;
   position: absolute;
   text-align: center;
   width: 1162px;
   height: 81px;
   left: 381px;
   top: 707px;
+  line-height: 150%;
   font-size: 32px;
   color: #ff445a;
-  font-style: italic;
 }
 
 .main-menu-list {
+  /* фотографии в навигациии,ссылки,описание букета */
   list-style: none;
   display: flex;
   background-color: brown;
@@ -79,40 +84,48 @@ section {
   top: 143px;
 }
 .bouquet_joy {
+  /* объединение классов  */
   position: absolute;
+  font-weight: 600;
   width: 153px;
   height: 22px;
   left: 494px;
   top: 428px;
   font-size: 18px;
   line-height: 22px;
+  color: #212121;
 }
 .bouquet_happiness {
   left: 884px;
 }
 .bouquet_party {
+  width: 183px;
   left: 1261px;
 }
 .img_romashka {
+  /* фотографии в навигациии c объединением классов  */
   position: absolute;
   width: 150px;
   height: 150px;
   left: 495px;
   top: 255px;
 }
-.tulpan {
+.img_tulpan {
   left: 885px;
 }
-.pink-cosmos {
+.img_pink {
   left: 1277px;
 }
 .description_joy {
+  /* описание букета c объединением классов */
   position: absolute;
   text-align: center;
+
   width: 196px;
   height: 66px;
   left: 472px;
   top: 460px;
+  line-height: 140%;
   font-size: 16px;
 }
 .description_happiness {
@@ -122,6 +135,7 @@ section {
   left: 1254px;
 }
 .line1 {
+  /* вектор горизонтальный c объединением классов*/
   position: absolute;
   width: 1137.5px;
   height: 0px;
@@ -133,16 +147,19 @@ section {
   top: 889px;
 }
 .poem {
+  /* поэма */
   position: absolute;
   width: 555px;
   height: 265px;
   left: 488px;
   top: 977px;
-  font-style: normal;
+  line-height: 150%;
   font-size: 18px;
   text-align: left;
+  color: rgba(66, 66, 66, 1);
 }
 .buket {
+  /* фотография букета  */
   position: absolute;
   width: 244px;
   height: 282px;
@@ -150,6 +167,7 @@ section {
   top: 968px;
 }
 footer {
+  /*  подвал */
   position: absolute;
   top: 1330px;
   left: 0;
@@ -164,6 +182,7 @@ footer {
   width: 169px;
   top: 27px;
   left: 876px;
-  font-size: 15px;
+  line-height: 150%;
+  font-size: 18px;
   color: #ffffff;
 }
