@@ -1,1 +1,1 @@
-верстка
+reduced the code by 50 lines
