@@ -7,14 +7,12 @@ body {
   height: 1410px;
   margin: 0 auto;
 }
-
 ul {
   background-color: brown;
   margin: 0px;
   padding: 0;
   list-style: none;
 }
-
 header {
   display: flex;
   height: 80px;
@@ -28,14 +26,12 @@ header {
   top: 24.1px;
 }
 .img_flowers {
-  position: absolute;
   left: 431.28px;
   right: 1390.49px;
   top: 24.61px;
   bottom: 1353.78px;
 }
 .telephon {
-  position: absolute;
   width: 154px;
   height: 22px;
   left: 1378px;
@@ -67,7 +63,6 @@ section {
   left: 381px;
   top: 707px;
   font-size: 32px;
-
   color: #ff445a;
   font-style: italic;
 }
@@ -93,24 +88,11 @@ section {
   line-height: 22px;
 }
 .bouquet_happiness {
-  position: absolute;
-  width: 153px;
-  height: 22px;
   left: 884px;
-  top: 428px;
-  font-size: 18px;
-  line-height: 22px;
 }
 .bouquet_party {
-  position: absolute;
-  width: 183px;
-  height: 22px;
   left: 1261px;
-  top: 428px;
-  font-size: 18px;
-  line-height: 22px;
 }
-
 .img_romashka {
   position: absolute;
   width: 150px;
@@ -119,18 +101,10 @@ section {
   top: 255px;
 }
 .tulpan {
-  position: absolute;
-  width: 150px;
-  height: 150px;
   left: 885px;
-  top: 255px;
 }
 .pink-cosmos {
-  position: absolute;
-  width: 150px;
-  height: 150px;
   left: 1277px;
-  top: 255px;
 }
 .description_joy {
   position: absolute;
@@ -142,22 +116,10 @@ section {
   font-size: 16px;
 }
 .description_happiness {
-  position: absolute;
-  text-align: center;
-  width: 196px;
-  height: 66px;
   left: 862px;
-  top: 460px;
-  font-size: 16px;
 }
 .description_party {
-  position: absolute;
-  text-align: center;
-  width: 196px;
-  height: 66px;
   left: 1254px;
-  top: 460px;
-  font-size: 16px;
 }
 .line1 {
   position: absolute;
@@ -165,20 +127,13 @@ section {
   height: 0px;
   left: 392px;
   top: 606px;
-
   border: 1px solid #ffb5b5;
 }
 .line2 {
-  position: absolute;
-  width: 1137.5px;
-  height: 0px;
-  left: 392px;
   top: 889px;
-  border: 1px solid #ffb5b5;
 }
 .poem {
   position: absolute;
-
   width: 555px;
   height: 265px;
   left: 488px;
@@ -194,7 +149,6 @@ section {
   left: 1155px;
   top: 968px;
 }
-
 footer {
   position: absolute;
   top: 1330px;
