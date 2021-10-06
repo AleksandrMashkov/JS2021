@@ -1,0 +1,75 @@
+/* общие стили */
+body {
+    margin: 0;
+  }
+  .container {
+    width: 1140px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  /* стили хэдера */
+  header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+  }
+  /* стили навигации */
+  .main-menu {
+    background-color: coral;
+  }
+  .main-menu-list {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Стили контентной части */
+  .content {
+    display: flex;
+    min-height: 100vh; /* Блок content является flex-элементом flex-контейнера container и у него есть свойство flex-grow (жадность), которое по умолчанию равно 0. Если контенту задать flex-grow: 1, то он займет все пространство родителя. Тогда футеру будет доступно немного места внизу страницы. Именно это нам и нужно.*/
+    flex-grow: 1;
+  }
+  
+  section {
+    background-color: rgb(23, 172, 110);
+    flex: 4; /* распределение в долях */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-item {
+    background-color: darkred;
+    padding: 15px;
+    margin: 10px;
+    width: 50%;
+    box-sizing: border-box; /* теперь пэдинги и бордеры включены в ширину */
+    width: calc(50% - 20px);
+  }
+  /* стили сайдбара */
+  .sidebar-right {
+    background-color: darkslateblue;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .news {
+    background-color: plum;
+  }
+  /* стили футера */
+  footer {
+    background-color: dimgray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
