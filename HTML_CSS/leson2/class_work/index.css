@@ -67,7 +67,7 @@ body {
   }
   /* стили футера */
   footer {
-    background-color: dimgray;
+    background-color: rgb(77, 55, 55);
     height: 100px;
     display: flex;
     justify-content: center;
