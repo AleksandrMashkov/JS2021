@@ -19,23 +19,44 @@
 // 1 === “1”
 // “2” > 10
 
-console.log("кот" > "код"); //код буквы Т<чем Д
+console.log("кот" > "код"); //true     код буквы Т<чем Д
 console.log("2" + 2 * "2"); //?
 console.log(undefined == null); // true при нестрогом сравнении равны
-console.log(undefined != null); // folse не строгое неравенство
-console.log(null == 0); //folsr При нестрогом равенстве null=undef
-console.log(2 > "3"); //  folse при < или > типы приводятся к числу
-console.log(null - false + true); //?
+console.log(undefined != null); // false не строгое неравенство
+console.log(null == 0); //false При нестрогом равенстве null=undef
+console.log(2 > "3"); //  false при < или > типы приводятся к числу
+console.log(null - false + true); //  ?
 console.log(1 / "l"); //NaN делим число на стоку
-console.log("2" * "3", typeof ("2" * "3")); //6
+console.log("2" * "3", typeof ("2" * "3")); //6 'number'
 console.log(4 + 5 + "O"); //90 9 склеим c 0 так как бинарный+
-console.log("l" + 4 + 5); //14 становится строкой +5=145
-console.log("4" - 2); // 4-2 4 становится числом
-console.log("4" - "4x"); // стока -строка- NaN
-console.log("23" == 23); // приведены к типу
+console.log("l" + 4 + 5); //145    14 становится строкой +5
+console.log("4" - 2); // 2     4 становится числом 
+console.log("4" - "4x"); //NaN      стока -строка- 
+console.log("23" == 23); //true           приведены к типу
 console.log(null == false); //??
-console.log(" -4 " / 0 + 1); //деление на 0 undef
+console.log(" -4 " / 0 + 1); //-Infinity  деление на 0
 console.log(null + 1); //1
 console.log(undefined + null); // NaN
-console.log(1 === "1"); // folse строгое сравнение число и строка
-console.log("2" > 10); //приведены к типу
+console.log(1 === "1"); //false     строгое сравнение число и строка
+console.log("2" > 10); //false       приведены к типу
+
+t
+
+index.js:24 true
+index.js:25 
+index.js:26 
+index.js:27 f
+index.js:28 1
+index.js:29 NaN
+index.js:30 6 
+index.js:31 9O
+index.js:32 l45
+index.js:33 2
+index.js:34 NaN
+index.js:35 true
+index.js:36 false
+index.js:37 -Infinity
+index.js:38 1
+index.js:39 NaN
+index.js:40 false
+index.js:41 
