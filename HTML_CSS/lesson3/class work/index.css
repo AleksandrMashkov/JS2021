@@ -1,0 +1,66 @@
+/* общие стили */
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+/* стили хедера */
+.header-top{
+  border-bottom: 1px solid #DEDEDE;
+}
+.header-top-info{
+  display: flex;
+justify-content:space-between;
+height: 67px;
+align-items: center;
+}
+.top-menu{
+  display: flex;
+  width: 945px;
+  justify-content: space-between;
+}
+.top-menu-left,.top-menu-right{
+  display: flex;
+  justify-content: space-between;
+}
+.top-menu-left a,.top-menu-right a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #424242;
+}
+.top-menu-left{
+  width: 352px;
+}
+.top-menu-right{
+  width: 340px;
+}
+.menu-bottom{
+  display: flex;
+  justify-content: space-between;
+  height: 73px;
+  align-items: center;
+}
+  .menu-bottom a{
+     text-decoration: none;
+     font-size: 16px;
+  color: #424242;
+  font-weight: 500;
+  }
+.banner-info{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+.baner-info-offer a{
+  .text-decoration: none;
