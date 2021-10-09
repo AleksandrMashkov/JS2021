@@ -14,8 +14,6 @@
 //  }
 //  console.log("finish");
 
-
-
 // console.log("start");
 // const value =5;
 // if(value>0){
@@ -24,9 +22,6 @@
 //      console.log("false");
 //  }
 //  console.log("finish");
-
-
-
 
 // console.log("start");
 // let value =0 ;
@@ -41,15 +36,12 @@
 // }
 // console.log("finish");
 
-
 // тернарный оператор
 // const age=20;
 // const result = age>=18 ? "Доступ разрешен":"Доступ запрещен";
 // console.log(result);
 
-
 //конструкция switch
-
 
 // switch ("mary") {
 //     case "ivan":
@@ -72,28 +64,27 @@
 
 // console.log("a","b","c");
 // if (a>b) {
-//     a>c ? console.log("a"):console.log("c"); 
-// } 
+//     a>c ? console.log("a"):console.log("c");
+// }
 // else b>c? console.log("b"):console.log("c")
 // }
- 
+
 //      console.log("закончили");
 
 // let userRol="user";
 // switch (userRol) {
-//     case "admin": 
+//     case "admin":
 //     console.log("это информация о администраторе роль,дата,напиток");
 //         break;
-//         case "manager": 
+//         case "manager":
 //         console.log(" это информация о менеджере роль,дата,напиток");
 //         break;
-//         case "user": 
+//         case "user":
 //         console.log("это информация о пользователе роль,дата,напиток");
 //         break;
 //     default:
 //         console.log("пользователя нет в списке");
 // }
-
 
 //логическое или ||
 
@@ -101,7 +92,6 @@
 // const b=1;
 // const result1 =a||b;
 // console.log(result1);
-
 
 // логическое и &&
 // const a=20;
@@ -120,7 +110,7 @@
 //     console.log(c);
 // }
 
-// 
+//
 
 // циклы while и for
 
@@ -137,7 +127,6 @@
 // while(i)
 // console.log("end");
 
-
 // for
 // let i=0;
 // for(;i<=3;i++){
@@ -150,17 +139,32 @@
 // i+=1;
 // }
 
-// FOR 
+// FOR
 //  for(i=0;i<=10;i++){
 //      console.log(i);
 // }
 
-let m=100;
-let n=23;
-let dey=0;
-while(m>=n){
-    m/=2;
-    dey+=1;
-}
+// let m=100;
+// let n=23;
+// let dey=0;
+// while(m>=n){
+//     m/=2;
+//     dey+=1;
+// }
+// console.log(dey);
 
-console.log(dey);
+// for (let i = 0; i < 10; i++);
+// {
+//   console.log(i);
+// // }
+// for (let i = 0; i < 5; i++);
+// console.log(i);
+
+let start = 1800;
+let periud = 0;
+while (start < 2020) {
+  start += 4;
+  if (start === 1900) continue;
+  periud += 1;
+}
+console.log(periud);
