@@ -79,17 +79,88 @@
  
 //      console.log("закончили");
 
-let userRol="admin";
-switch (userRol) {
-    case "admin": 
-    console.log("это информация о администраторе роль,дата,напиток");
-        break;
-        case "manager": 
-        console.log(" это информация о менеджере роль,дата,напиток");
-        break;
-        case "user": 
-        console.log("это информация о пользователе роль,дата,напиток");
-        break;
-    default:
-        console.log("пользователя нет в списке");
+// let userRol="user";
+// switch (userRol) {
+//     case "admin": 
+//     console.log("это информация о администраторе роль,дата,напиток");
+//         break;
+//         case "manager": 
+//         console.log(" это информация о менеджере роль,дата,напиток");
+//         break;
+//         case "user": 
+//         console.log("это информация о пользователе роль,дата,напиток");
+//         break;
+//     default:
+//         console.log("пользователя нет в списке");
+// }
+
+
+//логическое или ||
+
+// const a=100;
+// const b=1;
+// const result1 =a||b;
+// console.log(result1);
+
+
+// логическое и &&
+// const a=20;
+// const b=1;
+// const result1 = a && b;
+// console.log(result1);
+
+// const a=1;
+// const c=2;
+// const c=3;
+// if (a>b && a>c){
+//     console.log(a);
+// }else if (b>a && b>c){
+//     console.log(b);
+// } else {
+//     console.log(c);
+// }
+
+// 
+
+// циклы while и for
+
+// let i=0;
+// while(i<10){
+//     console.log(i);
+//     i+=1;
+// }
+// console.log("end");
+
+// let i=0;
+// do{console.log("work");
+// }
+// while(i)
+// console.log("end");
+
+
+// for
+// let i=0;
+// for(;i<=3;i++){
+// console.log(i);
+// }
+
+// let i=0;
+// while(i<=5){
+//     console.log(i);
+// i+=1;
+// }
+
+// FOR 
+//  for(i=0;i<=10;i++){
+//      console.log(i);
+// }
+
+let m=100;
+let n=23;
+let dey=0;
+while(m>=n){
+    m/=2;
+    dey+=1;
 }
+
+console.log(dey);
