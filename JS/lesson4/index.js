@@ -160,11 +160,11 @@
 // for (let i = 0; i < 5; i++);
 // console.log(i);
 
-let start = 1800;
+let start = 1801;
 let periud = 0;
-while (start < 2020) {
-  start += 4;
-  if (start === 1900) continue;
+while (start < 2021) {
+  start++;
   periud += 1;
 }
+
 console.log(periud);
