@@ -382,10 +382,3 @@
 //     break;
 //   }
 // }
-
-let mass = [10, 20, 30, 50, 235, 3000];
-for (i = 0; i < mass.length; i++) {
-  if ((mass[i] = 1)) {
-    console.log(mass[i]);
-  }
-}
