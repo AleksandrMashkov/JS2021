@@ -1,0 +1,394 @@
+/*общие стили*/
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+/*стили хэдера*/
+.header-top {
+  border-bottom: 1px solid #dedede;
+}
+.header-top-info {
+  display: flex;
+  justify-content: space-between;
+  height: 67px;
+  align-items: center;
+}
+.top-menu {
+  display: flex;
+  width: 945px;
+  justify-content: space-between;
+}
+.top-menu-left,
+.top-menu-right {
+  display: flex;
+  justify-content: space-between;
+}
+.top-menu-left a,
+.top-menu-right a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #424242;
+}
+.top-menu-left {
+  width: 352px;
+}
+.top-menu-right {
+  width: 340px;
+}
+
+.top-menu-right-text {
+  color: #3a95ff;
+}
+
+.main-menu-list {
+  display: flex;
+  justify-content: space-between;
+  height: 73px;
+  align-items: center;
+}
+.main-menu-list a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #424242;
+  font-weight: 500;
+}
+
+.header-bottom {
+  border-bottom: 1px solid #dedede;
+}
+
+/*стили баннера*/
+
+.main-banner {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.banner-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-info-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 437px;
+  flex-wrap: wrap;
+}
+
+.banner-info-offer h1 {
+  font-weight: 600;
+  font-size: 52px;
+  color: #212121;
+  margin-block-start: 0;
+  margin-block-end: 1em;
+}
+
+.banner-info-text {
+  color: #3a95ff;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 55px;
+  text-decoration: none;
+  border-radius: 3px;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #3a95ff;
+}
+
+.btn-secondary {
+  color: #3a95ff;
+  
+  border: solid 1px #3a95ff;
+}
+
+/* Стили бокс меню */
+
+.menu-box {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.menu-box-cases {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-box h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #000000;
+}
+
+.menu-box p {
+  font-size: 20px;
+  color: #000000;
+}
+
+.menu-box-cases a {
+  text-decoration: none;
+  width: 555px;
+  height: 300px;
+  background-color: #eff2f5;
+  
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 62px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.cases {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  box-sizing: border-box;
+  
+}
+
+.cases-info h2,
+.cases-info p {
+  margin-left: 34px;
+}
+
+.cases-info h2 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #212121;
+}
+
+.cases-info p {
+  font-size: 18px;
+  color: #424242;
+}
+
+.cases-info {
+  margin-top: 20px;
+}
+.cases-banner img {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Стили бокса "кредитная карта 60" */
+
+.creditcard {
+  background: #eff2f5;
+  height: 775px;
+}
+
+.creditcard-box-info {
+  height: 500px;
+  width: 750px;
+  background: #e0e5ea;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.creditcard-box-info-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+
+.creditcard-box-info-head h1 {
+  font-weight: 600;
+  font-size: 38px;
+  color: #212121;
+  margin: 0 0 40px;
+}
+
+.creditcard-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 137.5px 0;
+}
+
+.creditcard-box-info-case {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.case {
+  width: 170px;
+}
+
+.case-head {
+  border-bottom: 1px solid #3a95ff;
+  font-weight: 500;
+  font-size: 30px;
+  color: #212121;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.case-foot {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #424242;
+  padding: 10px 0;
+}
+
+.creditcard-box-info-buttons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 100px;
+  
+  padding-top: 30px;
+}
+.creditcard-box-info-buttons a {
+  margin-right: 40px;
+}
+
+.creditcard-box-menu {
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.creditcard-box-menu a {
+  width: 360px;
+  height: 235px;
+  border-bottom: 5px solid #3a95ff;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25),
+    5px 5px 25px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+
+  
+}
+.creditcard-credit,
+.creditcard-debit {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 235px;
+}
+
+.creditcard-credit-head,
+.creditcard-debit-head {
+  display: flex;
+  justify-content: start;
+  font-weight: 600;
+  font-size: 26px;
+  color: #212121;
+  padding-left: 34px;
+}
+
+.creditcard-credit-foot,
+.creditcard-debit-foot {
+  display: flex;
+  justify-content: end;
+  padding-right: 34px;
+  padding-bottom: 34px;
+}
+
+/* Стили для card */
+
+.get-card {
+  height: 460px;
+}
+.box-get-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 50px 0;
+  height: 460px;
+  box-sizing: border-box;
+}
+.box-get-card h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #000000;
+}
+
+.box-get-card-info {
+  height: 460px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.info-first-step,
+.info-second-step,
+.info-third-step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info-first-step p,
+.info-second-step p,
+.info-third-step p {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #212121;
+}
+footer {
+  background: #eff2f5;
+  height: 160px;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 160px;
+  /* padding-top: 30px; */
+  box-sizing: border-box;
+}
+.info-left,
+.info-middle,
+.info-right {
+  width: 350px;
+}
+.info-left h3,
+.info-middle h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #424242;
+}
+.info-left p,
+.info-middle p,
+.info-right p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #424242;
+}

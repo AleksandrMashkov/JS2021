@@ -1,0 +1,154 @@
+/*общие стили*/
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .btn{
+    display: flex;
+    width: 200px;
+    height: 55px;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+  }
+  .btn-prim{
+    background: #3A95FF;
+    color: #FFFFFF;
+  }
+  .btn-sec{
+    border: 1px solid #3A95FF;
+    color: #3A95FF;
+  }
+  
+  /*стили хэдера*/
+  .header-top {
+    border-bottom: 1px solid #dedede;
+  }
+  .header-top-info {
+    display: flex;
+    justify-content: space-between;
+    height: 67px;
+    align-items: center;
+  }
+  .top-menu {
+    display: flex;
+    width: 945px;
+    justify-content: space-between;
+  }
+  .top-menu-left,.top-menu-right {
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-menu-left a,.top-menu-right a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #424242;
+  }
+  .top-menu-left {
+    width: 352px;
+  }
+  .top-menu-right {
+    width: 340px;
+  }
+  
+  .top-menu-right-text {
+    color: #3a95ff;
+  }
+  
+  .main-menu-list {
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    align-items: center;
+  }
+  .main-menu-list a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #424242;
+    font-weight: 500;
+  }
+  
+  .header-bottom {
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 70px;
+
+  }
+
+  .prodakts-kart{
+      display: flex;
+    height: 402px;
+    left: 390px;
+    top: 329px;
+    background: #EFF2F5;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-top: 70px;
+    
+  }
+  .tip-kart{
+      justify-content: space-between;
+    height: 1346px;
+    margin-top: 70px;
+    
+  }
+  h3{
+    font-size: 32px;
+    color: #212121;
+  }
+  p{
+    font-size: 20px;
+    color: #424242;
+  }
+  .bottams{
+      width: 437px;
+      display: flex;
+      justify-content: space-between;
+  }
+  footer {
+    background: #eff2f5;
+    height: 160px;
+    margin-top: 70px;
+  
+  }
+  .footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 160px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .info-left,
+  .info-middle,
+  .info-right {
+    width: 350px;
+  }
+  .info-left h3,
+  .info-middle h3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #424242;
+  }
+  
+  .info-left p,
+  .info-middle p,
+  .info-right p {
+    font-weight: normal;
+    font-size: 14px;
+    color: #424242;
+  }
+  
