@@ -158,10 +158,23 @@
 // console.log(neyArr);
         
 
-//  Дан массив с числами. Выведите последовательно его элементы.
+// 14)Сделайте функцию getDivisors, которая параметром принимает число и возвращает массив его делителей 
+// (чисел, на которое делится данное число).
 
-let arr= [1,3,4,6,5];
-let newArr=[];
-for(let i=0;i<arr.length;i+=1){
+// function getDivisors(num) {
+// 	let arr = [];
+// 	for (i = 1; i <= num; i++) {
+// 		if(num % i == 0) {
+// 			arr.push(i);
+// 		}
+// 	}
+// 	return arr;
     
-}
+// }
+// console.log(getDivisors(2));
+
+
+
+
+
+
