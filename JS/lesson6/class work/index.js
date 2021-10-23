@@ -50,3 +50,115 @@
 //     }
 // };
 // console.log(isPalindrom("abgya"));
+
+
+// Обьекты
+// Примитивы
+// let num1=1;
+// let num2=num1;
+// console.log(num1,num2);
+
+// num1=2;
+// console.log(num1,num2);
+
+
+// const obj1={
+//     name:"Alex",
+// };
+// const obj2=obj1;
+
+// console.log(obj1,obj2);
+
+// obj1.name="IVAN"; //меняем только свойства обьекта name:"Alex"
+
+// console.log(obj1,obj2);
+
+
+// const obj={};
+// obj.true=1;
+// console.log(obj);
+
+// const obj={};
+// console.log(obj);
+// obj.age="12";
+// obj[`name-user`]='Ivan';
+// console.log(obj);
+
+// const obj={};
+// console.log(obj);
+// obj.age="12";
+// obj[`name`]='Ivan';
+// console.log(obj);
+
+// const obj={};
+// console.log(obj);
+// obj.age="12";
+// obj[`name`]='Ivan';
+// console.log(obj.age,obj.name);
+
+// Доьавление свойств обьекта
+
+// const obj={};
+// console.log(obj);
+// obj.age="12";
+// obj[`name`]='Ivan';
+// console.log(obj.age,obj.name);
+
+// obj.age=`18`;
+// obj.name="Max";
+// console.log(obj);
+
+
+// const obj={};
+// console.log(obj);
+// obj.age="12";
+// obj[`name`]='Ivan';
+// console.log(obj.age,obj.name);
+
+// obj.age=`18`;
+// obj.name="Max";
+// console.log(obj);
+// console.log(obj.age);
+
+// delete obj.age;
+// console.log(obj);
+// console.log(obj.age);
+
+
+// const obj={
+//     sayHi:function(name){
+//         console.log("HI USER",name);
+//     },
+// };
+
+// obj.sayHi("MAX");
+
+const obj={};
+obj.myFavoriteFilm = "оно";
+obj.age = '2019';
+obj[`name-rejiser`] = "не помню";
+obj.cantry ="Америка";
+
+console.log(obj.myFavoriteFilm,obj.age,obj['name-rejiser'],obj.cantry);
+
+obj.proceeds="10000$"
+console.log(obj.proceeds);
+ obj.getName=function (){
+    console.log("ОНО");
+}
+obj.getName();
+delete obj.age;
+console.log(obj);
+
+
+
+
+
+
+// let user = {
+// 	sayName: function () {
+// 		console.log(“Ivan”)
+// 	}
+// };
+// user.sayName(); // Выведет Ivan
+
