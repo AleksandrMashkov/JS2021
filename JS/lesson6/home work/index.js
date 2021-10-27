@@ -132,3 +132,60 @@
 //    return str.match(newStr)  ;
 // };
 // console.log(insensitive_search(str1,/ЗНАТЬ/gi));
+
+
+// 11) Напишите функцию initCap(str), которая преобразует стиль написания составных слов строки в 
+// CamelCase, при котором несколько слов пишутся слитно без пробелов, при этом каждое слово внутри строки пишется с заглавной буквы.
+// const initCap=(str)=>{
+//     return  str.toLowerCase().replace(/(?:^|\s)[a-z]/g, function(str) {
+//         return str.toUpperCase().replace(/\s+/g, "")})  ;
+// };
+// console.log(initCap("where am I"));
+
+
+// 12) Напишите функцию initSnake(str), которая преобразует стиль написания составных слов строки из CamelCase в snake_case, 
+// при котором несколько слов разделяются символом подчеркивания (_), причём каждое слово пишется с маленькой буквы.
+
+
+// const initSnake=(str)=>{
+//     return str.toLowerCase().replace(/\s+/g, "_");
+// };
+// console.log(initSnake("where am I"));
+
+// 13. Повторить строку n раз
+// Напишите функцию repeatStr(str, n), которая возвращает строку повторяемую определённое количество раз.
+
+// const repeatStr=(str, n)=>{
+//     return str.repeat(4);
+    
+// };
+// console.log(repeatStr("Where am I! "));
+
+
+// 14. Получить имя файла
+// Напишите функцию path(pathname), которая возвращает имя файла (подстрока после последнего символа "\" ) из полного пути к файлу.
+
+// const path = (pathname)=>{
+// return pathname.split("/").pop();
+// };
+// console.log(path("/hz/home/user/dir/file.txt"));
+
+// 24. Найти слово в строке
+// Напишите функцию findWord(word, str), которая проверяет, существует ли в строке str слова word.
+
+
+let str= "abc def ghi jkl mno pqr stu";
+const regexp=(word, str)=> {
+    return RegExp('\\b'+word+'\\b').test(str);
+};
+console.log(regexp("def", str));
+
+
+// let regexp = /люблю/gi;
+
+// let str = "Я люблю JavaScript";
+
+// // начать поиск с 10-й позиции:
+// regexp.lastIndex = 10;
+// alert( regexp.test("def".str) ); // false (совпадений нет)
+
