@@ -1,5 +1,4 @@
 // 1. Преобразовать строку в массив слов
-
 // Напишите функцию stringToarray(str), которая преобразует строку в массив слов.
 
 // var str = 'Каждый охотник желает знать';
@@ -10,7 +9,6 @@
 // console.log(arr);
 
 // 2. Удаление указанного количества символов из строки
-
 // Напишите функцию delete_characters(str, length), которая возвращает подстроку, состоящую из указанного количества символов.
 
 // ВАРИАНТ 1
@@ -43,12 +41,10 @@
 
 
 // 4. Сделать первую букву строки прописной
-
 // Напишите функцию, которая принимает строку в качестве аргумента и преобразует регистр первого символа строки из нижнего регистра в верхний.
 
 // let str = "string not starting with capital";  
 // function cursive_letter(str) {
-
 //     return str.charAt(0).toUpperCase()+str.slice(1);
 // }
 // let newStr = cursive_letter(str);
@@ -56,7 +52,6 @@
 
 
 // 5. Первая буква каждого слова заглавная
-
 // Напишите функцию capitalize(str), которая возвращает строку, в которой каждое слово начинается с заглавной буквы.
 
 // let str = "каждый охотник желает знать";  
@@ -88,16 +83,13 @@
 // 7. Удалить все не буквенно-цифровые символы
 // Напишите функцию remove_char(str), которая возвращает строку, очищенную от всех не буквенно-цифровых символов.
 
-
 // let str = "every., -/ hunter #! wishes ;: {} to $ % ^ & * know";  
- 
 // function remove_char(str) {
 //     return str.match(/\w+/g); 
 // };
 // console.log(remove_char(str));
 
 // 8. Нулевое заполнение строки
-
 // Напишите функцию zeros(num, len), которая дополняет нулями до указаной длины числовое значение с дополнительным 
 // знаком «+» или « -« в зависимости от передаваемого аргумента.
 
@@ -108,7 +100,6 @@
 // Напишите функцию comparison(str1, str2), которая сравнивает строки без учёта регистра символов.
 // let str1="яблОко";
 //     let str2="яблокои";
-
 // function comparison(str1, str2) {
 //     str1=str1.toLowerCase();
 //     str2=str2.toLowerCase();
@@ -157,7 +148,6 @@
 
 // const repeatStr=(str, n)=>{
 //     return str.repeat(4);
-    
 // };
 // console.log(repeatStr("Where am I! "));
 
@@ -170,22 +160,49 @@
 // };
 // console.log(path("/hz/home/user/dir/file.txt"));
 
+// 19. Количество вхождений символа в строке
+// Напишите функцию count(str, stringsearch), которая возвращает количество символов 
+// stringsearch в строке str.
+
+// let str = "Астрономия это наука о небесных объектах в космосе";
+// console.log((str.match(/о/g) || []).length); 
+
+
+// 21. Удалить лишние пробелы из строки
+// Напишите функцию strip(str), которая удаляет все лишние пробелы из строки str.
+
+// const strip=(str)=> {
+//  return str.replace(/\s+/g, ' ').trim();
+// };
+// console.log(strip("    A    Max is       a good      boy     "));
+
+
+// 23) Напишите функцию cutString(str, n), которая удаляет лишние слова из строки str, оставив в ней n слов.
+
+// let str= "Каждый охотник желает знать";
+// const cutString=(str, n)=> {
+//     return str.split(" ").splice(0, n).join(" ");
+// };
+// console.log (cutString(str,3));
+
+// let str1="Каждый охотник желает знать";
+// function insensitive_search(str, newStr) {
+//     // str=newStr.toLowerCase();   
+//    return str.match(newStr)  ;
+// };
+// console.log(insensitive_search(str1,/ЗНАТЬ/gi));
+
+
 // 24. Найти слово в строке
 // Напишите функцию findWord(word, str), которая проверяет, существует ли в строке str слова word.
 
 
-let str= "abc def ghi jkl mno pqr stu";
-const regexp=(word, str)=> {
-    return RegExp('\\b'+word+'\\b').test(str);
-};
-console.log(regexp("def", str));
+// let str= "abc def ghi jkl mno pqr stu";
+// const regexp=(word, str)=> {
+//     return RegExp('\\b'+word+'\\b').test(str);
+// };
+// console.log(regexp("def", str));
 
 
-// let regexp = /люблю/gi;
 
-// let str = "Я люблю JavaScript";
-
-// // начать поиск с 10-й позиции:
-// regexp.lastIndex = 10;
-// alert( regexp.test("def".str) ); // false (совпадений нет)
 
