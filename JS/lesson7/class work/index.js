@@ -156,7 +156,12 @@
     // в качестве результата возвращать новый массив с уникальными значениями 
     // из исходного.
 
-   
+    let arr_2 = arr.filter((item, index) => {
+        return arr.indexOf(item) === index;
+      });
+      console.log(arr_2);
+      
+      
 
     // const Arr=[1,2,3,4,4,5,5,6,7,8,8,9];
   
@@ -167,10 +172,10 @@
     //     по значению и по индексу) то функция возвращает true, в 
     //     противном случае false.
   
-//     const arr1 = [1, 4, 3, 4,8];
-// const arr2 = [1, 2, 3, 4];
-// const isArr = (arr1, arr2) => arr1.toString() === arr2.toString();
-// console.log(isArr(arr1, arr2));
+const arr1 = [1, 1, 2, 3, 2, 5, 6, 4, 4];
+const arr2 = [1, 1, 2, 3, 4, 3, 2, 5, 6, 4, 4];
+const isArr = (arr1, arr2) => arr1.toString() === arr2.toString();
+console.log(isArr(arr1, arr2));
 
 	
     
