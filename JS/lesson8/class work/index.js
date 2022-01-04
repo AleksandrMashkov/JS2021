@@ -65,12 +65,18 @@
 // town.setSomeValue("Population"," 9 mln");
 // console.log(town);
    
-var arr = [6, 8, 1, 4, 9, 9, 5, 3, 0, 2, 7];
-function sumSeven(numbers){
-    return numbers.map((el)=>`(${el}:${9-el})`)
-    .filter((el,i,arr)=>i<arr.length/2);
-}
-console.log(sumSeven(arr));
+// var arr = [6, 8, 1, 4, 9, 9, 5, 3, 0, 2, 7];
+// function sumSeven(numbers){
+//     return numbers.map((el)=>`(${el}:${9-el})`)
+//     .filter((el,i,arr)=>i<arr.length/2);
+// }
+// console.log(sumSeven(arr));
 
+$.get('/action.php', {query: 'test'}, function(data) { 
+    console.log(data); // ответ от сервера
+})
+.success(function() { console.log('Успешное выполнение'); })
+.error(function(jqXHR) { console.log('Ошибка выполнения'); })
+.complete(function() { console.log('Завершение выполнения'); });
 
 
