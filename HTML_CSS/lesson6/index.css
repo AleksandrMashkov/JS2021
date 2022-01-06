@@ -1,0 +1,70 @@
+#container{
+    width: 890px;
+    margin: 20px auto;
+    background-color: white;
+}
+#heder{
+    background-color:#F8AA03;
+}
+#heder
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 20px;
+}
+#heder
+li{
+    
+    margin-right: 30px;
+    line-height: 50px; 
+    font-size: 19px;
+}
+#conant{
+    width: 600px;
+    
+    text-align: justify;
+    margin-right: 250px;
+    padding: 20px;
+}
+#conant
+h1,h2,h3,h4{
+font-size: 21px;
+}
+table {
+    width: 100%; /*Растягивает таблицу на весь div*/ 
+}
+td{
+   border:1px  solid black; 
+}
+
+#had{
+    font-weight: bold;
+    background-color: #EBEBEB;
+}
+#rightBar{
+font-size: 13px;
+width: 250px;
+float: right;
+text-align: justify;
+margin: 20px 10px 0 10px;
+}
+#rightBar
+h1,h2{
+    font-size: 17px;
+}
+#footer{
+    padding: 20px 0; /*равные отступы по вертикали */
+    background-color: #F8AA03;
+    color: white;
+    text-align: center;  /*центрируем надпись футера */
+    vertical-align: auto;
+}
+a:link,a:visited{
+    color:white;
+    text-decoration: none;
+}
+ a:hover, a.active{         /*выделение одной ссылки как активной через селектор Class*/
+   text-decoration: underline;
+}
+
+
