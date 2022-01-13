@@ -1,0 +1,114 @@
+
+body{
+    margin: 0px; /*Убираю пустоту марджин*/
+    background-color: #EBEBEB;
+}
+#heder{
+background-color:#242424;
+}
+#menu{
+    width: 1100px;  
+    line-height: 50px;
+    margin: 0 auto;
+}
+#menu
+ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+#menu
+li{
+    color: white;
+    list-style-type: none;
+    padding: 0 20px;
+    font-size: 20px;
+    
+}
+
+#conteiner{
+    background-color: white;
+    margin: 20px auto;
+    width: 1100px;
+    margin-bottom: 30px;
+    display: flex;
+}
+#rightB{
+    float: right;
+    width: 250px;
+    text-align: justify;
+    margin: 20px 20px 0 20px;
+}
+#rightB,#leftB
+h1,h2{
+    
+    font-size: 20px;
+}
+#rightB,#leftB
+p{
+    font-size: 13px;
+}
+
+#leftB{
+    float: left;
+    width: 250px;
+    text-align: justify;
+    margin: 20px 20px 0 20px;
+   
+}
+#content
+p{
+    font-size: 16px;
+}
+#content{
+    margin: 0 20px;
+    width: 600px;
+    text-align: justify;
+}
+#content
+img{
+    width: 100%;
+}
+.sidrbar p{
+    margin-bottom: 10px;
+}
+#footer{
+    background-color: #242424;
+    margin: 0 auto;
+    
+
+}
+#foot{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    
+    
+}
+
+#foot
+div{
+    margin: 20px 0px;
+    width: 24%;
+    background-color:#EBEBEB;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    margin-right: 1.3333%;
+min-height: 200px;
+}
+
+#copy{
+    margin-bottom: 30px;
+    color:white;
+    text-align: center;
+}
+
+a:link,a:visited{
+    
+    text-decoration: none;
+}
+a:hover{
+   background-color:gray; 
+   text-decoration: none;
+}
