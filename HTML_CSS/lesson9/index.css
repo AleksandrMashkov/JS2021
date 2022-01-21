@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+     
+    
+
+#contHed{ 
+    background-color: #008040;
+}
+
+#infoHed{
+    margin-left: auto;/*выравнил блок по центру экрана*/
+    margin-right: auto; /*выравнил блок по центру экрана*/
+    width: 1100px;
+   
+   line-height: 10px;
+    padding: 5px;
+     text-align: center;  /*выравнил инфо по центру родителя*/
+}
+#infoHed
+h1{
+    font-size: 35px;
+    color: white;
+}
+#infoHed
+p{
+    font-size: 20px;
+    color: white;
+}
+#siteBody
+ol{padding: 0;
+}
+#siteBody{
+    margin-left: auto;/*выравнил блок по центру экрана*/
+    margin-right: auto; /*выравнил блок по центру экрана*/
+    width: 900px;
+    text-align: justify;
+    
+}
+#siteBody
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+#siteBody
+li{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+li::marker{          /*изменяю цвет маркера в li*/
+ color: red;     
+}
+
+#contContakt{
+    background-color: red;
+}
+#contakt{
+    text-align: center;
+    padding: 10px;
+}
+#contakt
+h1{
+    margin-top: 0;
+    font-size: 20px;
+    margin-top: 0;
+}
+#contakt
+p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+#bootBody{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bootBody
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+#bootBody
+p{
+    text-align: justify;
+    font-size: 16px;
+}
+#upFooter{
+    background-color: #FF8040;
+    margin-left: auto;/*выравнил блок по центру экрана*/
+    margin-right: auto; /*выравнил блок по центру экрана*/
+}
+#upFooter
+h1{
+    text-align: center;
+ font-size: 35px;  
+ padding-top: 10px; 
+}
+#upFooter
+p{
+    margin: 0px;
+    text-align: center;
+}
+#upFooter
+img{
+    border: 1px solid black;
+}
+
+#footer{
+    background-color: #912F00;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer
+p{
+    text-align: center;
+    padding: 200px 0 5px 0;
+    margin: 0;
+}
